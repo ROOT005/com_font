@@ -51,13 +51,14 @@ ul, li{
     padding-left:  0px !important;
     padding-right: 0px !important;
 }
+
 .navigation{
     z-index: 1;
     position: absolute;
     top: 0px;
 }
 .navbar {
-  position: fixed;
+
   left: 40em;
   min-height: 0;
   margin-bottom: 0;
