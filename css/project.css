@@ -8,6 +8,16 @@ html, body{
 ul, li{
     list-style: none;
 }
+html, body{
+    background-color: #ccc;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+
+}
+ul, li{
+    list-style: none;
+}
 .footer {
     background-color: #202020;
         background-image: -webkit-gradient(linear, 0 0, 100% 100%,
@@ -58,7 +68,7 @@ ul, li{
 }
 .navbar {
   position: fixed;
-  left: 40em;
+  right: 5em;
   min-height: 0;
   margin-bottom: 0;
   border: none;
