@@ -20,8 +20,8 @@ input[type="button"],input[type="submit"]{
 	-ms-transition:0.5s all;
 }
 h1,h2,h3,h4,h5,h6{
-	margin:0;			   
-}	
+	margin:0;
+}
 p{
 	margin:0;
 }
@@ -153,7 +153,7 @@ i.rss:hover{
 	border-top: 1px solid #dbdbdb;
 }
 .nav_content {
-	border-left: 1px solid #eaeaea;	
+	border-left: 1px solid #eaeaea;
 	border-right: 1px solid #eaeaea;
 }
 /*-- content --*/
@@ -411,7 +411,7 @@ div#testimonials {
 .go-top {
 	float:right;
 }
-.go-top a {		
+.go-top a {
 	background: #1b1a1b;
 	padding: 14px;
 	display: block;
@@ -725,7 +725,7 @@ i.pinterest1{
 div#portfoliolist {
 	padding: 0px 0px;
 	  min-height: 535px;
-}	
+}
 .portfolio-wrapper {
 	overflow:hidden;
 	position: relative !important;
@@ -774,11 +774,11 @@ div#portfoliolist {
   overflow: hidden;
   visibility: hidden;
   width: 0;
-  height: 0; 
+  height: 0;
 }
 .row:after,
 .clearfix:after {
-  clear: both; 
+  clear: both;
 }
 .clear {
   clear: both;
@@ -801,7 +801,7 @@ div#portfoliolist {
 	color: #f97474;
 	cursor: pointer;
 	font-size: 1.1em;
-	font-weight: 400;	
+	font-weight: 400;
 	margin:0 0.3em;
 	border:1px solid #f97474;
 }
@@ -819,7 +819,7 @@ div#portfoliolist {
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
-}					  
+}
 #filters li {
 	display: -webkit-inline-box;
 }
@@ -965,7 +965,7 @@ div#portfoliolist {
   font-size: 2.3em;
   margin: 1em 0 0.4em 0;
 }
-.right_column li a { 
+.right_column li a {
 	color: #000;
 	font-weight: 600;
 	font-size: 0.965em;
@@ -1215,25 +1215,8 @@ p.comment-form-author {
 	text-align: center;
 }
 .single-one span {
-	color:#362f2f;
+	color:#000;
 	font-size:1em;
-}
-.single-one span a{
-	color:#362f2f;
-	text-decoration:none;
-}
-.single-one span i{
-	background: url(../images/img-sprite.png)no-repeat -140px 0px ;
-	width: 18px;
-	height: 18px;
-	display: inline-block;
-	vertical-align:middle;
-}
-.single-one span i.com{
-	background-position: -158px 0px;
-}
-.single-one span i.four{
-	background-position: -176px 0px;
 }
  p.eget {
 	font-size: 1.1em;
@@ -1246,7 +1229,7 @@ ul.social-share{
 	float:left;
 }
 ul.social-share li{
-	display: inline-block;	
+	display: inline-block;
 }
 ul.social-share li span{
 	color:#838383;
@@ -1297,7 +1280,7 @@ i.arrow{
 	-o-border-bottom-right-radius: 10px;
 	-ms-border-bottom-right-radius: 10px;
 }
-.men{	
+.men{
 	background:#333;
 	float: left;
 	width: 9%;
@@ -1389,7 +1372,7 @@ p.reply i{
 	resize:none;
 	width: 100%;
 	margin: 0.5em 0em;
-	height: 185px;	
+	height: 185px;
 }
 .leave input[type="submit"]{
 	border:none;
@@ -1469,6 +1452,14 @@ p.reply i{
 .top-single {
 	padding: 1em;
 }
+.top-single h2{
+	text-align: center;
+	margin: 2em auto;
+}
+.top-single p{
+	font-size: 1.5em;
+	margin-top: 2em;
+}
 /*-- responsive-design starts-here --*/
 
 @media screen and (max-width: 1366px) {
@@ -1501,7 +1492,7 @@ p.reply i{
 	}
 	div#portfoliolist {
 		min-height: 534px;
-	}	
+	}
 }
 @media screen and (max-width: 1280px) {
 	.blog-section {
@@ -1538,7 +1529,7 @@ p.reply i{
 	}
 	.about-middle-grid h4 {
 		font: italic 26px/34px 'Raleway';
-	}	
+	}
 	.error h1 {
 		font-size: 10em;
 	}
@@ -1604,7 +1595,7 @@ p.reply i{
 	}
 	div#portfoliolist {
 		min-height: 442px;
-	}  
+	}
 }
 @media screen and (max-width: 768px) {
 	.footer-grid {
@@ -1723,8 +1714,8 @@ p.reply i{
 		top: -2px;
 		right: 4px;
 		width: 30px;
-		height: 30px;	
-	}	
+		height: 30px;
+	}
 	.about-grid {
 		width: 25%;
 		float: left;
@@ -1807,7 +1798,7 @@ p.reply i{
 	}
 	.leave input[type="submit"] {
 		margin: 0.7em 0em 0;
-	}	
+	}
 	.single-grid {
 		padding: 0px;
 	}
@@ -2278,7 +2269,7 @@ p.reply i{
 	ul.social-share li i {
 		margin: 0 2px;
 	}
-	ul.social-share li span {	
+	ul.social-share li span {
 		font-size: 1em;
 	}
 	p.smith a {
