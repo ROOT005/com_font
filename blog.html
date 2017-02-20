@@ -4,9 +4,10 @@
 <title>Blog</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/blog.css" rel="stylesheet" type="text/css" media="all" />
 <!-- Custom Theme files -->
-<script src="js/jquery.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js" charset="utf-8"></script>
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -24,13 +25,74 @@
 </head>
 <body>
 	<!-- header-section-starts -->
-  
+  <div class="container nav" id="header">
+      <div class="navigation">
+          <nav class="navbar navbar-default" role="navigation">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+              </div>
+              <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-left link-effect">
+                      <li><a href="home.html" class="scroll">主页</a></li>
+                      <li><a href="product.html" class="scroll">找资金</a></li>
+                      <li><a href="project.html" class="scroll">找项目</a></li>
+                      <li><a href="blog.html" class="scroll">行业动态</a></li>
+                      <li><a href="about.html" class="scroll">关于我们</a></li>
+                      <div class="clearfix"></div>
+                  </ul>
+              </div><!--/.navbar-collapse-->
+          </nav>
+      </div>
+  </div><!--navgination_end-->
+  <div class="container-fluid banner">
+      <div  id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- 下边的点 -->
+          <ol class="carousel-indicators visible-lg-inline">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+          <!-- 内容 -->
+          <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                  <img class="img-responsive" src="images/product_banner.jpg" alt="">
+                  <div class="carousel-caption">
+                  </div>
+              </div>
+              <div class="item">
+                  <img class="img-responsive" src="images/product_banner.jpg" alt="">
+                  <div class="carousel-caption">
+                  </div>
+              </div>
+              <div class="item">
+                  <img class="img-responsive" src="images/product_banner.jpg" alt="">
+                  <div class="carousel-caption">
+                  </div>
+              </div>
+          </div>
+          <!-- 控制 -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          </a>
+      </div>
+  </div>
+  <div class="container choice">
+    <ul>
+        <li><a class="btn btn-info" href="" title="" role="button">行业动态</a><a class="btn btn-info" href="" title="" role="button">融资攻略</a></li>
+    </ul>
+  </div><!--choice_end-->
 	<div class="content">
 		<div class="container">
 			<div class="blog-posts-section">
 				<!-- head-section -->
 					<div class="head-section text-center">
-						<h2>新闻动态</h2>
+						<h2>行业动态</h2>
 						<span> </span>
 					</div>
 					<!-- /head-section -->
@@ -41,7 +103,7 @@
 							<a href="single.html" class="blog-title">This is blog post title</a>
 							<p class="sub_head">Posted by <a href="#">Admin</a> on 12/04/2014</p>
 							<span></span>
-							<p>Phasellus in tincidunt velit. Etiam fermentum fringilla tristique. Aenean posuere aliquam interdum. Sed dignissim turpis eget leo ultricies ultricies. Sed et felis leo, eget dapibus massa. Etiam volutpat vehicula dolor, vel placerat odio posuere non.</p>
+							<p>tum fringilla tristique. Aenean posuere aliquam interdum. Sed dignissim turpis eget leo ultricies ultricies. Sed et felis leo, eget dapibus massa. Etiam volutpat vehicula dolor, vel placerat odio posuere non.</p>
 						</div>
 						<div class="blog-post">
 							<a href="single.html"><img src="images/b2.jpg"></a>
@@ -94,7 +156,7 @@
 							<a href="single.html" class="blog-title">This is blog post title</a>
 							<p class="sub_head">Posted by <a href="#">Admin</a> on 12/04/2014</p>
 							<span></span>
-							<p>Fusce placerat bibendum augue, non posuere lorem facilisis sit amet. Mauris malesuada nunc eget est pellentesque sit amet aliquet dolor pharetra. Integer placerat elit quis nisl dignissim non consectetur quam vestibulum. Suspendisse tincidunt adipiscing magna, ut dapibus nulla varius nec. Proin mi dolor, dapibus nec congue posuere, ornare sit. </p>
+							<p>Integer placerat elit quis nisl dignissim non consectetur quam vestibulum. Suspendisse tincidunt adipiscing magna, ut dapibus nulla varius nec. Proin mi dolor, dapibus nec congue posuere, ornare sit. </p>
 						</div>
 						<div class="blog-post">
 							<a href="single.html"><img src="images/b3.jpg"></a>
@@ -108,7 +170,7 @@
 				</div>
 			<div class="pagination text-center">
 				<ul>
-					<li><a class="prev" href="#">Prev</a></li>
+					<li><a class="prev" href="#">上一页</a></li>
 					<li><a href="#">1</a></li>
 					<li><a href="#">2</a></li>
 					<li><a href="#">3</a></li>
@@ -119,7 +181,7 @@
 					<li><a href="#">8</a></li>
 					<li><span>.....</span></li>
 					<li><a href="#">12</a></li>
-					<li><a href="#" class="next">Next</a></li>
+					<li><a href="#" class="next">下一页</a></li>
 				</ul>
 			</div>
 			</div>
