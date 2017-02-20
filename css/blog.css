@@ -368,6 +368,14 @@ p.reply i{
 		letter-spacing: 1px;
 		padding: 1em 0 1.4em 0;
 	}
+	.blog-post{
+		transform: scale(1, 1);
+		transition: transform 0.5s;
+	}
+	.blog-post:hover{
+	    transform: scale(1.05, 1.05);
+	    box-shadow: 1px 5px 5px 3px #777;
+	}
 	.blog-post span {
 		margin: 1em 0 1em 1em;
 	}
